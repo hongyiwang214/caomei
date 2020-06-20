@@ -1,4 +1,10 @@
-javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . Main.java
-Main.java:1: error: class, interface, or enum expected
 variable_1 = input("What is your name?")
-^
+variable_2 = input("Where are you?")
+variable_3 = input("How old are you?")
+variable_4 = input("What is your email address?")
+variable_5 = input("What is your ID Number?")
+print(hongyiwang)
+print(Changchun)
+print(18)
+print(2954355102@qq.com)
+print(112928201)
