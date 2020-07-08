@@ -8,3 +8,20 @@ print(Changchun)
 print(18)
 print(2954355102@qq.com)
 print(112928201)
+
+Scanner in = new Scanner(System.in); 
+ String varableQ[] = new String[5]; 
+ String varableA[] = new String[5]; 
+ varableQ[0] = "What is your name?"; 
+ varableQ[1] = "Where are you?"; 
+ varableQ[2] = "How old are you?"; 
+ varableQ[3] = "What is your email address?"; 
+ varableQ[4] = "What is your ID Number?"; 
+ int i = 0; 
+ while(i<5){ 
+ system.out.print(varableQ[i]); 
+ varableA[i] = in.nextLine(); 
+ } 
+ for(i=0;i<5;i++){ 
+ system.out.print(varableA(i)); 
+ } 
